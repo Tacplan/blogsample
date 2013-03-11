@@ -70,7 +70,7 @@ AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
 AWS_ACCESS_KEY_SECRET: $AWS_ACCESS_KEY_SECRET
 S3_BUCKET: $S3_BUCKET
 GITPATH: $GITPATH
-EMAIL: EMAIL
+EMAIL: $EMAIL
 
 This email message was generated on the following EC2 instance:
 
@@ -81,7 +81,7 @@ This email message was generated on the following EC2 instance:
 EOM
 
 # Give the email some time to be queued and delivered
-sleep 45 # 45 seconds
+sleep 120 # 120 seconds
 
 # Time to terminate
 shutdown -h now
