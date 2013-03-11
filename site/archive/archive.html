@@ -1,0 +1,14 @@
+---
+layout: default
+title: Archive
+---
+<div class="maingrid">
+    <section id="archive">
+    {% for post in site.posts %}
+    {% include listpost.html %}
+    {% endfor %}
+    </section>
+    <div class="sidebar_content">
+      {% include docs_contents.html %}
+    </div>
+</div>

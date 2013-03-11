@@ -1,0 +1,39 @@
+<div class="sidebar_content">
+  <aside>
+    <div class="sidebar_block1">
+      <h4>Links</h4>
+    </div>
+    <div class="sidebar_block2">
+        <ul>
+      <li>
+        <a href="http://www.google.com" target="_blank">Your Link 1</a>
+      </li>
+      <li>
+        <a href="http://www.google.com" target="_blank">Your Link 2</a>
+      </li>
+      <li>
+        <a href="http://www.google.com" target="_blank">Your Link 3</a>
+      </li>
+      <li>
+        <a href="http://www.google.com" target="_blank">Your Link 4</a>
+      </li>
+    </ul>
+    </div>
+    <h4>Subscribe</h4>
+  <div class="sidebar_block3">
+
+        <img src="http://www.feedicons.com/images/feed-icon-14x14.png" alt="RSS"> Subscribe to <a href="{{ site.url }}/feed.xml">  <b>RSS</b></a> or <a href="{{ site.url }}/atom.xml"> <b>Atom</b> </a> feeds
+
+      <p></p>
+   </div>
+   <h4>Archive</h4>
+  <div class="sidebar_block4">
+    <ul>
+      <li class="{% if page.title == "Archive" %}current{% endif %}">
+        <a href="{{ site.url }}/archive/archive.html">All Posts</a>
+      </li>
+    </ul>
+    <p></p>
+  </div>
+  </aside>
+</div>

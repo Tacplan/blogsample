@@ -1,0 +1,325 @@
+﻿/* Base */
+
+body {
+  font-family: font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  background: #fff;
+  border-top: 5px solid #a79c8d;
+  
+}
+
+/* Sections */
+
+body > header, body > section{
+}
+
+/* Header */
+body > header {
+}
+body > header .content {
+}
+body > header h1 img {
+}
+body > header h1 span {
+}
+
+/*--------------------------------------------------------------
+ Footer
+ --------------------------------------------------------------*/
+footer {
+  overflow: hidden;
+  clear: both;
+  text-align: left;
+  line-height: 0.5em;
+  height: 20px;
+  background: ##a79c8d;
+  font-size: 16px;
+  color: #888;
+  width: 100%;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+}
+
+footer #copyright {
+}
+
+footer #copyright a {
+}
+
+
+/* Navigation */
+
+nav {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav li a {
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: all .25s;
+   -moz-transition: all .25s;
+   -webkit-transition: all .25s;
+}
+
+nav li a:hover {
+  background: #3d3d3d;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+nav li.current a {
+  background: #3d3d3d;
+  color: #a79c8d;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5);
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+}
+
+/* Utilities */
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* Sections */
+
+.intro .content {
+  padding: 10px 0 40px;
+}
+
+.intro p {
+  font-size: 3.2em;
+  line-height: 1em;
+  margin: 0;
+}
+
+.features .content {
+ }
+
+/* Code */
+
+
+/* Documentation */
+
+
+/* Code Highlighting */
+
+pre, code {
+  white-space: pre;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  font-size: 16px;
+  padding: 0 .5em;
+  line-height: 1.8em;
+}
+
+.highlight, p > pre, p > code {
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 10px rgba(0,0,0,.3),
+    0 1px 0 rgba(255,255,255,.1),
+    0 -1px 0 rgba(0,0,0,.5);
+}
+
+.highlight {
+  padding: 10px 0;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+/* HTML Elements */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: #9e9e9e;
+  text-decoration: none;
+  transition: all .25s;
+   -moz-transition: all .25s;
+   -webkit-transition: all .25s;
+}
+
+a:hover {
+  color: #f90;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.left { float: left; }
+.right { float: right; }
+.align-right { text-align: right; }
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+
+/* Article HTML */
+
+h1{
+  font-weight: normal;
+}
+
+h2,
+h3,
+h5,
+h6 {
+  margin-top: 1em 0;
+}
+
+h4{
+  font-weight: normal;
+}
+
+h5{
+  font-size: 1em;
+}
+
+h6{
+  font-weight: normal;
+}
+
+article ul li p {
+  margin: 0;
+}
+
+article ul li, article ol li {
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+article ul li blockquote {
+  margin: 10px 0;
+}
+
+blockquote {
+  border-left: 2px solid #777;
+  padding-left: 20px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+article {
+    padding: 2.0em 0.0em 2.0em 0.0em;
+  border-bottom: 1px solid #000;
+}
+
+.article_title {
+
+}
+
+header .dateline {
+  color: #000;
+  margin: 0;
+}
+
+.article_body {
+}
+
+article pre {
+  border: 1px solid #ddd;
+  padding: 0 0.4em;
+}
+
+article blockquote {
+  font-size: 0.91em;
+    font-style: italic;
+  padding: 0.5em 1.5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+article code {
+  font-size: 0.91em;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  padding: 0 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+article pre.code {
+  border: 1px solid #ddd;
+  background-color: #3d3d3d;
+}
+
+article pre code {
+  border: none;
+  font-weight: normal;
+}
+
+article pre.terminal {
+  border: 1px solid black;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+article pre.terminal code {
+  background-color: #3d3d3d;
+}
+
+article .video {
+    text-align: center;
+
+}
+article .video-title {
+    font-weight: bold;
+}
+
+article .video-note {
+  font-style: italic;
+}
+
+/*--------------------------------------------------------------
+ Archive
+ --------------------------------------------------------------*/
+
+#archive {
+}
+
+#archive article {
+}
+
+#archive header {
+}
+
+#archive article p {
+}
+
+/* Tables */
